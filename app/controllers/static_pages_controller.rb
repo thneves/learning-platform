@@ -1,7 +1,5 @@
 class StaticPagesController < ApplicationController
-  def landing_page
-  end
+  def landing_page; end
 
-  def privacy_policy
-  end
+  def privacy_policy; end
 end
