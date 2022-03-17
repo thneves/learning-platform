@@ -1,0 +1,13 @@
+p
+  = notice
+
+h1 = 'Courses'
+
+#courses
+  - @courses.each do |course|
+    = render course
+    p
+      = link_to "Show this course", course
+
+= link_to "New Course", new_course_path
+
