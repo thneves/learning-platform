@@ -79,9 +79,6 @@ GEM
       autoprefixer-rails (>= 9.1.0)
       popper_js (>= 2.9.3, < 3)
       sassc-rails (>= 2.0.0)
-    bootstrap_form (5.0.0)
-      actionpack (>= 5.2)
-      activemodel (>= 5.2)
     builder (3.2.4)
     byebug (11.1.3)
     capybara (3.36.0)
@@ -269,6 +266,9 @@ GEM
       childprocess (>= 0.5, < 5.0)
       rexml (~> 3.2, >= 3.2.5)
       rubyzip (>= 1.2.2)
+    simple_form (5.1.0)
+      actionpack (>= 5.2)
+      activemodel (>= 5.2)
     slim (4.1.0)
       temple (>= 0.7.6, < 0.9)
       tilt (>= 2.0.6, < 2.1)
@@ -319,7 +319,6 @@ PLATFORMS
 DEPENDENCIES
   bootsnap
   bootstrap
-  bootstrap_form
   capybara
   debug
   factory_bot_rails
@@ -338,6 +337,7 @@ DEPENDENCIES
   rubocop
   sassc-rails
   selenium-webdriver
+  simple_form
   slim
   sprockets-rails
   stimulus-rails
@@ -351,4 +351,4 @@ RUBY VERSION
    ruby 2.7.4p191
 
 BUNDLED WITH
-   2.3.4
+   2.3.9
